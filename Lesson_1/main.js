@@ -4,9 +4,9 @@
 
 alert("Lesson_1");
 
-var setModel = prompt("Enter model");
-var setColour = prompt("Enter color");
-var setMemory = prompt("Enter memory");
+var setModel = prompt("Enter model (apple or meizu)");
+var setColour = prompt("Enter color (black, blue, rose)");
+var setMemory = prompt("Enter memory (4 or 8)");
 
 if (setModel == 'apple' && setColour == 'black' && setMemory == 4){
     document.write('<p><img src="image/apple_black.jpg" class="center-img"/></p>' +
